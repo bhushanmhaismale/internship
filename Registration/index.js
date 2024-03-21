@@ -11,7 +11,6 @@ const port = process.env.PORT || 5000;
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
-
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.xw6tnup.mongodb.net/User`,{
     useNewUrlParser: true,
     useUnifiedTopology : true
